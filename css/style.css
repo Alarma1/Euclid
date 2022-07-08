@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.euclid {
+  width: 1920px;
+  margin: auto;
+  background-color: #FFFFFF;
+}
+
+.container {
+  width: 1770px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+
+}
+
+.text__heading {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #333333;
+}
+
+.btn {
+  padding: 19px 38px 19px 38px;
+  Gap: 10px;
+  border: none;
+}
+
+/* Header */
+
+.head {
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 40px 0px #0000001A;
+}
+
+.head__menu {
+  width: 1920px;
+  padding: 14px 75px 14px 75px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 40px 0px #0000001A;
+}
+
+.head__logo {
+  margin-right: 725px;
+}
+
+.head__list {
+  display: flex;
+}
+
+.head__item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.head__item:not(:last-child) {
+  margin-right: 85px;
+}
+
+/* Hero */
+.hero__info {
+  width: 1770px;
+  min-height: 620px;
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/low-angle-photo-of-balconies-2462015\ 1.jpg);
+}
+
+.hero__title {
+  max-width: 837px;
+  margin: 0 0 24px 0;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 85px;
+  color: #FFFFFF;
+}
+
+.hero__text {
+  max-width: 790px;
+  margin: 0 0 90px 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.hero__button {
+  width: 280px;
+  height: 78px;
+  background: #FF9900;
+  font-weight: 700;
+  font-size: 23.4581px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* About */
+.about__tit {
+  margin: 0 0 20px 0;
+}
+
+.about__text {
+  max-width: 1235px;
+  margin: 0 0 50px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.about__row {
+  height: 662px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.about__item {
+  justify-content: center;
+}
+
+.first {
+  width: 868px;
+  height: 622px;
+  padding-top: 426px;
+  margin: 0 32px 0 0;
+  background-image: url(../img/Rectangle2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.about__description {
+  display: flex;
+  width: 868px;
+  height: 196px;
+  padding-left: 50px;
+  padding-top: 50px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.about__description-text {
+  width: 454px;
+  height: 96px;
+  margin: 0 139px 0 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.about__btn {
+  width: 175px;
+  max-height: 60px;
+  border: 3px solid #FF9900;
+  background: rgba(0, 0, 0, 0);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.second {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 870px;
+  height: 295px;
+  padding: 65px 118px 65px 60px;
+  margin: 0 0 32px 0;
+  background: #FFFFFF;
+  border: 1px solid #CACACA;
+}
+
+.about__figure {
+  margin-right: 50px;
+}
+
+.about__discription {
+  width: 450px;
+  height: 128px;
+}
+
+.about__head {
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+
+}
+
+.about__info {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.third {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 870px;
+  height: 295px;
+  padding: 65px 120px 65px 60px;
+  background: #FFFFFF;
+  border: 1px solid #CACACA;
+}
