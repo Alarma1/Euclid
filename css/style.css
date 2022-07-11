@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -23,9 +27,26 @@ ul {
 }
 
 .text__heading {
+  margin: 0;
   font-weight: 400;
   font-size: 48px;
   line-height: 59px;
+  color: #333333;
+}
+
+.heading__description {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+
+.text__description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
   color: #333333;
 }
 
@@ -120,7 +141,6 @@ ul {
   margin: 0 0 50px 0;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
   color: #333333;
 }
 
@@ -192,7 +212,7 @@ ul {
   margin-right: 50px;
 }
 
-.about__discription {
+.about__info {
   width: 450px;
   height: 128px;
 }
@@ -224,3 +244,71 @@ ul {
   background: #FFFFFF;
   border: 1px solid #CACACA;
 }
+
+/* Work */
+.work__tit {
+  margin: 0 0 50px 0;
+}
+
+.work__list {
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.work__position {
+  display: flex;
+}
+
+.work__info {
+  width: 870px;
+  height: 460px;
+  margin-right: 142px;
+}
+
+.work__img {
+  width: 870px;
+  height: 460px;
+}
+
+.work__head {
+  margin-bottom: 8px;
+}
+
+.work__item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.work__item:not(:last-child) {
+  margin-right: 85px;
+}
+
+.work__info-text {
+  width: 758px;
+  margin-bottom: 50px;
+}
+
+.work__more {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #FF9900;
+  margin-right: 32px;
+}
+
+.work__contrackt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  width: 147px;
+  height: 60px;
+  left: 207px;
+  top: 586px;
+  border: 1px solid #333333;
+}
+
+/* FAQ */
