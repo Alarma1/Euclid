@@ -308,7 +308,127 @@ ul {
   height: 60px;
   left: 207px;
   top: 586px;
+  background-color: #FFFFFF;
   border: 1px solid #333333;
 }
 
 /* FAQ */
+.faq__tit {
+  margin-bottom: 32px;
+}
+
+.faq__item {
+  height: 110px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #333333;
+}
+
+.faq__item:last-child {
+  border-bottom: 1px solid #333333;
+}
+
+/* Footer */
+.contacts {
+  background-color: #222222;
+  color: #CACACA;
+}
+
+.contacts__container {
+  height: 594px;
+  padding: 50px 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__menu {
+  width: 252px;
+  height: 494px;
+}
+
+.contacts__logo {
+  margin-bottom: 20px;
+}
+
+.contacts__list {
+  margin-bottom: 90px;
+}
+
+.contacts__item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.contacts__list-social {
+  display: flex;
+}
+
+.contacts__item-icon:not(:last-child) {
+  margin-right: 25px;
+}
+
+.contacts__date {
+  width: 570px;
+  height: 494px;
+}
+
+.contacts__date-head {
+  margin-bottom: 25px;
+  color: #CACACA;
+}
+
+.contacts__items {
+  padding: 14px 24px;
+  margin-bottom: 25px;
+  border: none;
+}
+
+.contacts__name {
+  width: 570px;
+  height: 60px;
+  background: #414141;
+}
+
+.contacts__email {
+  width: 570px;
+  height: 60px;
+  background: #414141;
+}
+
+.contacts__text {
+  width: 570px;
+  height: 150px;
+  background: #414141;
+}
+
+.contacts__btn {
+  width: 269px;
+  height: 58px;
+  margin-right: 22px;
+  background: #FF9900;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.contacts__checbox-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.contacts__info {
+  width: 363px;
+  height: 320px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #CACACA;
+}
+
+.contacts__info-text {
+  margin: 87px 0 0 0;
+}
