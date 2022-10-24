@@ -375,12 +375,15 @@ ul {
   height: 110px;
   padding: 30px 0;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #333333;
+  border-top: 1px solid #CACACA;
+  ;
 }
 
 .faq__item:last-child {
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #CACACA;
+  ;
 }
 
 /* Footer */
@@ -572,5 +575,41 @@ ul {
     justify-content: center;
     align-items: flex-start;
     padding: 65px 77px;
+  }
+
+  /* Work */
+  .work {
+    min-height: 882px;
+  }
+
+  .work__info {
+    max-width: 437px;
+    height: 576px;
+    margin-right: 50px;
+  }
+
+  .work__img {
+    width: 437px;
+    height: 689px;
+    margin-top: 10px;
+    background-image: url(../img/Rectangle\ 12.jpg);
+  }
+
+  .work__info-text {
+    margin-bottom: 25px;
+  }
+
+  /* Faq */
+  .heading__description {
+    font-size: 20px;
+  }
+
+  /* Footer */
+  .contacts__container {
+    padding: 50px 50px;
+  }
+
+  .contacts__info {
+    display: none;
   }
 }
