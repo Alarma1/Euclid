@@ -137,7 +137,8 @@ ul {
 }
 
 /* Hero */
-.hero__info {
+
+.hero__info-one {
   width: 100%;
   min-height: 620px;
   margin: auto;
@@ -145,6 +146,26 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../img/low-angle-photo-of-balconies-2462015\ 1.jpg);
+}
+
+.hero__info-two {
+  width: 100%;
+  min-height: 620px;
+  margin: auto;
+  padding: 100px 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/brown-and-blue-glass-building-2093076\ 2.jpg);
+}
+
+.hero__info-three {
+  width: 100%;
+  min-height: 620px;
+  margin: auto;
+  padding: 100px 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/apartment-apartment-building-architecture-building-323705\ 2.jpg);
 }
 
 .hero__title {
@@ -306,17 +327,48 @@ ul {
 .work__position {
   display: flex;
 }
-
-.work__info {
-  max-width: 870px;
-  height: 460px;
-  margin-right: 142px;
+.tab__content {
+  display: none;
 }
 
-.work__img {
+.tab__content-active {
+  display: block;
+}
+
+.work__advice {
+  max-width: 870px;
+  height: 460px;
+  /* margin-right: 142px; */
+}
+
+.work__advice-img {
   width: 870px;
   height: 460px;
   background-image: url(../img/Rectangle18.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.work__outlay-img {
+  width: 870px;
+  height: 460px;
+  background-image: url(../img/Rectangle\ 18.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.work__builder-img {
+  width: 870px;
+  height: 460px;
+  background-image: url(../img/Rectangle\ 19.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.work__inspect-img {
+  width: 870px;
+  height: 460px;
+  background-image: url(../img/Rectangle\ 20.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
