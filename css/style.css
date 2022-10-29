@@ -324,21 +324,23 @@ ul {
   margin-bottom: 45px;
 }
 
-.work__position {
-  display: flex;
-}
 .tab__content {
   display: none;
 }
 
 .tab__content-active {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work__text {
+  width: 758px;
+  height: 320px;
+  margin-right: 92px;
 }
 
 .work__advice {
-  max-width: 870px;
   height: 460px;
-  /* margin-right: 142px; */
 }
 
 .work__advice-img {
@@ -385,13 +387,29 @@ ul {
   color: #333333;
 }
 
+.work__tabs {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  border: 0px;
+  background: none;
+}
+
+.tabs__color {
+  color: #E1670E;
+  ;
+}
+
 .work__item:not(:last-child) {
   margin-right: 85px;
 }
 
 .work__info-text {
   max-width: 758px;
-  margin-bottom: 42px;
+  margin-bottom: 41px;
 }
 
 .work__more {
