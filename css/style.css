@@ -138,33 +138,40 @@ ul {
 
 /* Hero */
 
-.hero__info-one {
+.hero {
+  position: relative;
+}
+
+.hero__title {
+  font-size: 60px;
+  line-height: 73px;
+  background-size: 100%;
+}
+
+.hero__info {
+  position: absolute;
+  z-index: 2;
+  margin: 80px 100px;
+}
+
+.swiper-slide {
   width: 100%;
   min-height: 620px;
   margin: auto;
   padding: 100px 80px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.hero__img-one {
   background-image: url(../img/low-angle-photo-of-balconies-2462015\ 1.jpg);
 }
 
-.hero__info-two {
-  width: 100%;
-  min-height: 620px;
-  margin: auto;
-  padding: 100px 80px;
-  background-size: cover;
-  background-repeat: no-repeat;
+.hero__img-two {
   background-image: url(../img/brown-and-blue-glass-building-2093076\ 2.jpg);
 }
 
-.hero__info-three {
-  width: 100%;
-  min-height: 620px;
-  margin: auto;
-  padding: 100px 80px;
-  background-size: cover;
-  background-repeat: no-repeat;
+.hero__img-three {
   background-image: url(../img/apartment-apartment-building-architecture-building-323705\ 2.jpg);
 }
 
@@ -570,7 +577,7 @@ ul {
     padding: 0;
   }
 
-  /* Head */
+  /* @Head */
   .head {
     justify-content: space-between;
   }
@@ -595,26 +602,9 @@ ul {
     display: none;
   }
 
-  /* Hero */
-  .hero__info {
-    max-width: 924px;
-    margin: 0 auto 80px auto;
-    height: 668px;
-    padding: 160px 77px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../img/low-angle-photo-of-balconies-2.jpg);
+  /* @Hero */
 
-  }
-
-  .hero__title {
-    font-size: 60px;
-    line-height: 73px;
-    background-size: 100%;
-
-  }
-
-  /* About */
+  /* @About */
   .about {
     min-height: 1605px;
   }
@@ -647,7 +637,7 @@ ul {
     padding: 65px 77px;
   }
 
-  /* Work */
+  /* @Work */
   .work {
     min-height: 882px;
   }
@@ -669,12 +659,12 @@ ul {
     margin-bottom: 25px;
   }
 
-  /* Faq */
+  /* @Faq */
   .heading__description {
     font-size: 20px;
   }
 
-  /* Footer */
+  /* @Footer */
   .contacts__container {
     padding: 50px 50px;
   }
