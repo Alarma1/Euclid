@@ -149,6 +149,8 @@ ul {
 }
 
 .hero__info {
+  height: 420px;
+  overflow-x: hidden;
   position: absolute;
   z-index: 2;
   margin: 80px 100px;
@@ -456,6 +458,17 @@ ul {
   justify-content: space-between;
   border-top: 1px solid #CACACA;
   ;
+}
+
+.faq__icon-disabled {
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  background-image: url(/img/Group\ 30.svg);
+}
+
+.faq__icon-active {
+  background-image: url(/img/+х.svg);
+  transform: rotate();
 }
 
 .faq__item:last-child {
