@@ -599,6 +599,10 @@ ul {
     display: block;
   }
 
+  .head__burger-hide {
+    display: none;
+  }
+
   .head__logo {
     margin: 0;
   }
