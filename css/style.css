@@ -48,6 +48,25 @@ ul {
   padding: 0;
 }
 
+button:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+  background-color: rgba(255, 153, 0, 0.7);
+  border: none;
+  transform: scale(1.1);
+  transition-property: border-color, background-color, color, transform;
+  transition-duration: 0s;
+  transition-timing-function: ease;
+}
+
+button:focus {
+  background-color: rgba(255, 153, 0, 0.7);
+}
+
+button:active {
+  background-color: #E1670E;
+}
+
 .euclid {
   margin: 0;
   background-color: #FFFFFF;
@@ -131,7 +150,26 @@ ul {
   background-color: white;
 }
 
+.burger__item:hover {
+  border-bottom: 2px solid #FF9900;
+  cursor: none;
+  transition-property: border-color, background-color, color, transform;
+  transition-duration: 0s;
+  transition-timing-function: ease;
+}
+
+.burger__item:focus {
+  border: 2px solid #FF9900;
+}
+
+.burger__item:active {
+  color: #E1670E;
+  background-color: 2px solid #E1670E;
+}
+
 .burger__item {
+  border: none;
+  background: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -151,6 +189,23 @@ ul {
   display: flex;
 }
 
+/* .head__item:hover {
+  border-bottom: 2px solid #FF9900;
+  cursor: pointer;
+  transition-property: border-color, background-color, color, transform;
+  transition-duration: 0s;
+  transition-timing-function: ease;
+}
+
+.head__item:focus {
+  border: 2px solid #FF9900;
+}
+
+.head__item:active {
+  color: #E1670E;
+  background-color: 2px solid #E1670E;
+} */
+
 .head__item {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -166,6 +221,7 @@ ul {
 /* Hero */
 
 .hero {
+  padding-top: 105px;
   position: relative;
 }
 
@@ -176,11 +232,9 @@ ul {
 }
 
 .hero__info {
-  height: 420px;
-  overflow-x: hidden;
   position: absolute;
   z-index: 2;
-  margin: 105px 100px 80px 100px;
+  margin: 80px 100px;
 }
 
 .swiper-slide {
