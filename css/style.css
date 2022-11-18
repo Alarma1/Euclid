@@ -222,6 +222,10 @@ ul {
   border-radius: 16px;
 }
 
+.head__field-stealth {
+  display: none;
+}
+
 .search__item {
   margin-left: 32px;
   border: none;
@@ -667,9 +671,25 @@ ul {
 }
 
 .ui-accordion {
+  width: 1810px;
+  height: 665px;
+  border: 1px dashed #7B61FF;
+  border-radius: 5px;
+}
+
+/* .ui-accordion-header {
+  display: flex;
+  align-items: center;
+  padding: 31px 20px;
   width: 1770px;
   height: 112px;
-}
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+} */
 
 .faq__item {
   height: 110px;
