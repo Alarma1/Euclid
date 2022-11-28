@@ -78,6 +78,12 @@ ul {
   color: #333333;
 }
 
+.heading__faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .text__description {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -216,10 +222,14 @@ ul {
   width: 539px;
   height: 60px;
   top: 105px;
-  right: 35px;
+  right: 47px;
   background: #FFFFFF;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
   border-radius: 16px;
+}
+
+.head__field-stealth {
+  display: none;
 }
 
 .search__item {
@@ -667,9 +677,25 @@ ul {
 }
 
 .ui-accordion {
+  width: 1810px;
+  height: 665px;
+  border: 1px dashed #7B61FF;
+  border-radius: 5px;
+}
+
+/* .ui-accordion-header {
+  display: flex;
+  align-items: center;
+  padding: 31px 20px;
   width: 1770px;
   height: 112px;
-}
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+} */
 
 .faq__item {
   height: 110px;
