@@ -41,12 +41,11 @@ document.addEventListener('DOMContentLoaded', function () {
     $("#accordion").accordion({
       active: false,
       collapsible: true,
-      heightStyle: 'content',
+      heightStyle: "auto",
       classes: {
         "ui-accordion": 'ui-accordion-header',
       },
-      // icons: icons //{ "header": "faq__icon-disabled", "activeHeader": "faq__icon-active" }
-
+      icons: false
     });
   })
   document.querySelectorAll('.head__burger').forEach(function (headBurger) {
@@ -57,12 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
       headBurger.currentTarget.classList.add('head__burger-hide')
     })
   })
-  // document.querySelectorAll('.search__btn').forEach(function (searchBtn) {
-  //     searchBtn.addEventListener('click', function (searchBtn) {
-  //         document.querySelectorAll('.head__field').forEach(function (headFieldElement) {
-  //             headFieldElement.classList.remove('head__field')
-  //         })
-  //         searchBtn.currentTarget.classList.add('head__field')
-  //     })
-  // })
+  document.querySelector('.search__btn').addEventListener('click', function () {
+    document.querySelector('.head__field').classList.toggle('head__field-stealth')
+  })
 })

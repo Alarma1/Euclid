@@ -78,6 +78,12 @@ ul {
   color: #333333;
 }
 
+.heading__faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .text__description {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -216,7 +222,7 @@ ul {
   width: 539px;
   height: 60px;
   top: 105px;
-  right: 35px;
+  right: 47px;
   background: #FFFFFF;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
   border-radius: 16px;
